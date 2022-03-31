@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>CEP</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script type="text/javascript" src="base.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<form method="POST" id="form">
+			<input type="text" name="estado" maxlength="2" placeholder="Estado">
+			<input type="text" name="cidade" placeholder="Cidade">
+			<input type="text" name="rua" placeholder="Logradouro(Rua)">
+			<input type="text" name="numero" placeholder="Número">
+			<input type="text" name="bairro" placeholder="Bairro">
+			<input list="ceps" type="text" name="cep" placeholder="CEP">
+			<datalist id="ceps">
+			</datalist>
+			<input type="submit" value="Enviar">
+		</form>
+<div class="comentario"><div style="width:100%;" class="fb-comments"  order_by="reverse_time" data-mobile="true" data-width="720" data-href="http://www.baixarvideos.pe.hu/cep/"  data-numposts="10"></div></div>
+<input class="autor-btn" type="button" value="Autor">
+<style type="text/css">
+	.autor-btn{
+		position: fixed;
+		bottom: 5px;
+		border:none;
+		right: 5px;
+		cursor: pointer;
+		background-color: #eee;
+		border-bottom: 3px solid #ccc;
+		font-size: 1.2em;
+		width: 150px;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		border-radius: 0 0 5px 5px;
+		opacity: 0;
+		transition: 1s;
+	}
+	.autor-btn:hover{
+		opacity: 1;
+	}
+
+</style>
+	</body>
+
+</html>
