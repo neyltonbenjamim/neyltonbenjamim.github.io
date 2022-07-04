@@ -1,0 +1,38 @@
+body{
+	display: flex;
+	flex-flow: column;
+}
+body > header{
+	background-color: #2980b9;
+}
+
+body > main{
+	background-color: #ecf0f1;
+}
+body > footer{
+	background-color: #34495e;
+	color: #ecf0f1;
+}
+
+body > footer > nav a{
+	color: #ecf0f1;
+	text-decoration: none;
+}
+body > footer > nav a:hover{
+	color:#bdc3c7;
+	text-decoration: underline;
+}
+
+body > footer > nav ul{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+body > footer > nav ul a{
+	padding: 10px;
+}
+
+body > header, body > main, body > footer{
+	min-height: 60px;
+	padding: 10px 2%;
+}
